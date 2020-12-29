@@ -25,20 +25,75 @@
 
 // Arrays
 
-const fruits = ['Apples', 'Oranges', 'Pears' ]
+// const fruits = ['Apples', 'Oranges', 'Pears' ]
 
-fruits[3]= "grapes"
+// fruits[3]= "grapes"
 
-fruits.push('mangos')
+// fruits.push('mangos')
 
-fruits.unshift('strawberry')
+// fruits.unshift('strawberry')
 
-// fruits.pop()
+// // fruits.pop()
 
-console.log(Array.isArray(fruits))
-// console.log(Array.isArray('mangos'))
+// console.log(Array.isArray(fruits))
+// // console.log(Array.isArray('mangos'))
 
-console.log(fruits.indexOf('Pears'))
+// console.log(fruits.indexOf('Pears'))
 
 
-console.log(fruits)
+// console.log(fruits)
+
+
+// OBJECT LITERAL ../
+
+// const person = {
+//     firstName : 'Jhon',
+//     lastName : 'Doe',
+//     age : 30,
+//     hobbies : ['music', 'movies', 'sports'],
+//     address : {
+//         street : '50 main st',
+//         city : 'Boston',
+//         state : 'MA'
+//     }
+// }
+
+// person.email = 'Jhondoe@gmail.com'
+
+// console.log(person)
+
+
+
+
+// Arrays Of Objects & JSON 
+
+const todos = [
+    {
+        id : 1,
+        text : "Take out trash",
+        isCompleted : true
+
+    },
+
+    {
+        id : 2,
+        text : "Meeting with Boss",
+        isCompleted : true
+
+    },
+
+    {
+        id : 3,
+        text : "Dentist appt",
+        isCompleted : false
+
+    }
+]
+// console.log(todos);
+
+// todos[0, 1].email = 'iman@gmail.com'
+// console.log(todos[2].text);
+
+const todosJSON = JSON.stringify(todos)
+
+console.log(todosJSON);
