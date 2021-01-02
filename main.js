@@ -91,9 +91,65 @@ const todos = [
 ]
 // console.log(todos);
 
-// todos[0, 1].email = 'iman@gmail.com'
-// console.log(todos[2].text);
 
-const todosJSON = JSON.stringify(todos)
 
-console.log(todosJSON);
+
+// todos[0,1].email = 'imanardiansyah89@gmail.com'
+// // console.log(todos[2].text);
+
+// const todosJSON = JSON.stringify(todos)
+
+// console.log(todosJSON);
+
+
+
+//for
+// for (let i = 0;  i <= 10; i++  ) {
+//      console.log(i);
+// }
+
+// while 
+
+
+// let i = 0
+// while (i < 10) {
+//     console.log(`nomor yang akan tampil adalah : ${i}`)
+//     i++
+// }
+
+// for II example
+
+
+// for (i = 0; i < todos.length; i++) {
+//     console.log(todos[i].id)
+// }
+
+// for (let ayu of todos) {
+//     console.log(ayu.text);
+//     }
+
+
+// forEach, map, filter 
+
+// todos.forEach(function (ayu) {
+//     console.log(ayu.text)
+// })
+
+// const ayuText = todos.map(function(ayu) {
+//     return ayu.text
+// })
+
+// console.log(ayuText);
+
+
+
+// todos.forEach(function (ayu) {
+//     console.log(ayu.text);
+// })
+
+
+// const ayuText = todos.filter(function (ayu) {
+//     return ayu.isCompleted === true
+// })
+
+// console.log(ayuText)
