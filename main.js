@@ -67,28 +67,28 @@
 
 // Arrays Of Objects & JSON 
 
-const todos = [
-    {
-        id : 1,
-        text : "Take out trash",
-        isCompleted : true
+// const todos = [
+//     {
+//         id : 1,
+//         text : "Take out trash",
+//         isCompleted : true
 
-    },
+//     },
 
-    {
-        id : 2,
-        text : "Meeting with Boss",
-        isCompleted : true
+//     {
+//         id : 2,
+//         text : "Meeting with Boss",
+//         isCompleted : true
 
-    },
+//     },
 
-    {
-        id : 3,
-        text : "Dentist appt",
-        isCompleted : false
+//     {
+//         id : 3,
+//         text : "Dentist appt",
+//         isCompleted : false
 
-    }
-]
+//     }
+// ]
 // console.log(todos);
 
 
@@ -148,8 +148,54 @@ const todos = [
 // })
 
 
-// const ayuText = todos.filter(function (ayu) {
+// const todoCompleted = todos.filter(function (ayu) {
 //     return ayu.isCompleted === true
+// }).map(function (ayu) {
+//     return ayu.text
 // })
 
-// console.log(ayuText)
+// console.log(todoCompleted)
+
+
+
+
+// CONDITIONALS
+
+// function makeTea(isCold) {
+//     if(isCold) {
+//         var tea = "make an ice tea"
+//     } else {
+//         var tea = "make an hot tea"
+//     }
+//     return tea
+// }
+
+// console.log(makeTea(true));
+
+
+// const x = 4
+
+
+// if (x === 10) {
+//     console.log('x is 10');
+// } else if (x > 10) {
+//     console.log('x is greater than 10')
+// }
+//  else {
+//     console.log('x is less than 10')
+// }
+
+
+// x = 6
+// y = 11
+
+// if (x > 5  || y > 10) {
+//     console.log('x is more than 5 and y is more than 10');
+// }
+
+// KONDISI PAKAI OPERATOR TERNARY
+
+// const x = 9
+
+// const color = x > 10 ? 'red' : 'blue'
+// console.log(color);
