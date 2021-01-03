@@ -195,7 +195,32 @@
 
 // KONDISI PAKAI OPERATOR TERNARY
 
-// const x = 9
+// const x = 11
 
 // const color = x > 10 ? 'red' : 'blue'
-// console.log(color);
+
+// // console.log(color);
+
+// switch (color) {
+//     case 'red': 
+//         console.log('color is red');
+//         break;
+//     case 'blue' : 
+//         console.log('color is blue');
+//         break
+//     default:
+//         console.log('color is not blue and red');
+//         break;
+// }
+
+
+// FUNCTION 
+function addNums(num1, num2) {
+    return num1 + num2;
+}
+
+console.log(addNums(7, 7));
+
+const addNumb = (numb1 = 2, numb2 = 2) => numb1 + numb2
+
+console.log(addNumb(7,5));
