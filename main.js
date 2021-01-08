@@ -2,15 +2,13 @@
 
 // const age = "31"
 
-
-// // concat string 
+// // concat string
 // console.log('hyyyy my name is ' + name  + ' and i am ' + age)
 
-// // template iteral 
+// // template iteral
 // const hello = `hallo guys my name is ${ name} and i am ${age} years old`
 
 // console.log(hello)
-
 
 // const s = 'hello world'
 // const s = 'technology, computers, it, code'
@@ -20,8 +18,6 @@
 // // console.log(s.toLowerCase())
 // // console.log(s.substring(0, 5).toLocaleUpperCase())
 // console.log(s.split(', '))
-
-
 
 // Arrays
 
@@ -40,9 +36,7 @@
 
 // console.log(fruits.indexOf('Pears'))
 
-
 // console.log(fruits)
-
 
 // OBJECT LITERAL ../
 
@@ -62,10 +56,7 @@
 
 // console.log(person)
 
-
-
-
-// Arrays Of Objects & JSON 
+// Arrays Of Objects & JSON
 
 // const todos = [
 //     {
@@ -91,9 +82,6 @@
 // ]
 // console.log(todos);
 
-
-
-
 // todos[0,1].email = 'imanardiansyah89@gmail.com'
 // // console.log(todos[2].text);
 
@@ -101,15 +89,12 @@
 
 // console.log(todosJSON);
 
-
-
 //for
 // for (let i = 0;  i <= 10; i++  ) {
 //      console.log(i);
 // }
 
-// while 
-
+// while
 
 // let i = 0
 // while (i < 10) {
@@ -119,7 +104,6 @@
 
 // for II example
 
-
 // for (i = 0; i < todos.length; i++) {
 //     console.log(todos[i].id)
 // }
@@ -128,8 +112,7 @@
 //     console.log(ayu.text);
 //     }
 
-
-// forEach, map, filter 
+// forEach, map, filter
 
 // todos.forEach(function (ayu) {
 //     console.log(ayu.text)
@@ -141,12 +124,9 @@
 
 // console.log(ayuText);
 
-
-
 // todos.forEach(function (ayu) {
 //     console.log(ayu.text);
 // })
-
 
 // const todoCompleted = todos.filter(function (ayu) {
 //     return ayu.isCompleted === true
@@ -155,9 +135,6 @@
 // })
 
 // console.log(todoCompleted)
-
-
-
 
 // CONDITIONALS
 
@@ -172,9 +149,7 @@
 
 // console.log(makeTea(true));
 
-
 // const x = 4
-
 
 // if (x === 10) {
 //     console.log('x is 10');
@@ -184,7 +159,6 @@
 //  else {
 //     console.log('x is less than 10')
 // }
-
 
 // x = 6
 // y = 11
@@ -202,10 +176,10 @@
 // // console.log(color);
 
 // switch (color) {
-//     case 'red': 
+//     case 'red':
 //         console.log('color is red');
 //         break;
-//     case 'blue' : 
+//     case 'blue' :
 //         console.log('color is blue');
 //         break
 //     default:
@@ -213,14 +187,47 @@
 //         break;
 // }
 
+// FUNCTION
+// function addNums(num1, num2) {
+//     return num1 + num2;
+// }
 
-// FUNCTION 
-function addNums(num1, num2) {
-    return num1 + num2;
+// console.log(addNums(7, 7));
+
+// const addNumb = (numb1 = 2, numb2 = 2) => numb1 + numb2
+
+// console.log(addNumb(7,5));
+
+// const {map, asyncRoot, sleep} = require('modern-async')
+
+// asyncRoot(async () => {
+//   const array = [1, 2, 3]
+//   const result = await map(array, async (v) =>{
+//     await sleep(10)
+//     return v * 2
+//   })
+// console.log(result)
+// })
+
+// const anu = (anu1 = 1, anu2= 2) => {
+//   console.log(anu1 + anu2);
+// }
+
+// anu(56, 4)
+
+// const anuNumb = numbb1 => numbb1 + 1
+
+// console.log(anuNumb(7));
+
+//constructor function
+
+function Person(firstName, lastName, dob) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.dob = new Date(dob);
 }
 
-console.log(addNums(7, 7));
+//Instantiate object
 
-const addNumb = (numb1 = 2, numb2 = 2) => numb1 + numb2
-
-console.log(addNumb(7,5));
+const person1 = new Person('jhon', 'doe', '15-08-1989');
+console.log(person1.dob);
